@@ -11,6 +11,7 @@ user also should select a path for integration framework.
 ### step2
 Execute and create the integration framework.
 
+
 ## Stage2
 https://medium.com/@vojtastavik/building-an-ios-app-without-xcodes-build-system-d3e5ca86d30d
 try to make everything automatically.
