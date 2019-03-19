@@ -29,7 +29,7 @@ class ViewController: NSViewController {
         // button
         let simulatorBtn = simulatorFMButtonLayoutSetting()
         let deviceBtn = deviceFMButtonLayoutSetting(referView: simulatorBtn)
-        let productBtn = productButtonLayoutSetting(referView: deviceBtn)
+//        let productBtn = productButtonLayoutSetting(referView: deviceBtn)
         executeButtonLayoutSetting()
         
         // thumbnail
@@ -39,7 +39,7 @@ class ViewController: NSViewController {
         // textfield
         simulatorTextFieldLayoutSetting(referView1: simulatorBtn, referView2: thumbnailIcon_simulatorFM)
         deviceTextFieldLayoutSetting(referView1: deviceBtn, referView2: thumbnailIcon_deviceFM)
-        productTextFieldLayoutSetting(referView1: productBtn, referView2: thumbnailIcon_deviceFM)
+//        productTextFieldLayoutSetting(referView1: productBtn, referView2: thumbnailIcon_deviceFM)
     }
 
     override var representedObject: Any? {
